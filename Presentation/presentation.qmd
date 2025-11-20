@@ -350,7 +350,7 @@ knitr::include_graphics("https://ecorepsci.github.io/reproducible-science/img/rs
 ```
 
 <br>
-[**R-studio**]{.text-color-highlight-primary} is using [Projects]{.text-color-highlight-secondary} already by default
+[**RStudio**]{.text-color-highlight-primary} is using [Projects]{.text-color-highlight-secondary} already by default
 
 ::: footer
 [Reproducible Data Science](https://ecorepsci.github.io/reproducible-science/index.html)

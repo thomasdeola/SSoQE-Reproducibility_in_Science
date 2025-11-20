@@ -20,7 +20,7 @@
 library(here)
 
 source(
-  here::here("R/00_Confiq_file.R")
+  here::here("R/00_Config_file.R")
 )
 
 # Render -----
