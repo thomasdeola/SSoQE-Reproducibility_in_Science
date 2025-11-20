@@ -69,7 +69,7 @@ if (
     lockfile = here::here("renv.lock")
   )
 
-  cat("Set up completed. You can continute to run the project", "\n")
+  cat("Set up completed. You can continue to run the project", "\n")
 
   cat("Do NOT run the rest of this script", "\n")
 } else {
@@ -120,5 +120,5 @@ renv::snapshot(
   lockfile = here::here("renv.lock")
 )
 
-cat("Set up completed. You can continute to run the project", "\n")
+cat("Set up completed. You can continue to run the project", "\n")
 

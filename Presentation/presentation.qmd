@@ -350,7 +350,7 @@ knitr::include_graphics("https://ecorepsci.github.io/reproducible-science/img/rs
 ```
 
 <br>
-[**R-studio**]{.text-color-highlight-primary} is using [Projects]{.text-color-highlight-secondary} already by default
+[**RStudio**]{.text-color-highlight-primary} is using [Projects]{.text-color-highlight-secondary} already by default
 
 ::: footer
 [Reproducible Data Science](https://ecorepsci.github.io/reproducible-science/index.html)
@@ -414,7 +414,7 @@ Will [my code]{.text-color-highlight-primary} run [in 10 years]{.text-color-high
 include_local_figure("renv.png")
 ```
 
-The [{revn} package](https://rstudio.github.io/renv/index.html) will make sure it will! 
+The [{renv} package](https://rstudio.github.io/renv/index.html) will make sure it will! 
 
 :::
 ::::
@@ -641,7 +641,7 @@ knitr::include_graphics("https://user.oc-static.com/upload/2022/01/04/1641257693
 [https://openclassrooms.com/](https://openclassrooms.com/en/courses/7476131-manage-your-code-project-with-git-and-github/7681891-work-in-your-local-git-repository)
 ::: 
 
-## [Note on practital exercises]{.r-fit-text} {.subtitle .textcenter}
+## [Note on practical exercises]{.r-fit-text} {.subtitle .textcenter}
 
 ```{r}
 #| label: practical-exercise-note
@@ -1337,7 +1337,7 @@ include_local_figure("06_readme.png")
 
 ## A note on {usethis}
 
-[{usethis} package](https://usethis.r-lib.org/index.html) provide a lot of usefull helpers
+[{usethis} package](https://usethis.r-lib.org/index.html) provide a lot of useful helpers
 
 * **README** - description of the project
 
