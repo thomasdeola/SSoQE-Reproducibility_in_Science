@@ -56,3 +56,25 @@ Once a user obtains their version of the project, there are several steps to be 
 * Update [R](https://en.wikipedia.org/wiki/R_(programming_language)) and [R-studio IDE](https://posit.co/products/open-source/rstudio/). There are many guides on how to do so (e.g. [here](https://jennhuck.github.io/workshops/install_update_R.html))
 * Execute all individual steps with the `R/___Init_project___.R` script. This will result in the preparation of all R-packages using the [`{renv}` package](https://rstudio.github.io/renv/articles/renv.html), which is an R dependency management of your projects. Mainly it will install [`{RUtilpol}`](https://github.com/HOPE-UIB-BIO/R-Utilpol-package) and all dependencies. `{RUtilpol}` is used throughout the project as a version control of files.
 * Set up your preferences by editing the The Config file in `R/00_Config_file.R` script. The Config file is a script where all settings (configurations) and criteria used throughout the project are predefined by the user before running individual scripts. In addition, it prepares the current session by loading the required packages and saving all settings throughout the project
+
+## Example: Statistical Test
+
+The repository includes a complete example of a reproducible statistical analysis demonstrating best practices:
+
+* **Sample Data**: `Data/Input/sample_data.csv` - A small dataset comparing control and treatment groups
+* **Analysis Script**: `R/Project/01_statistical_test_example.R` - Full statistical analysis workflow including:
+  - Data loading and validation
+  - Descriptive statistics
+  - Independent samples t-test
+  - Data visualization
+  - Results export in multiple formats
+* **Helper Function**: `R/Functions/statistical_tests.R` - Reusable function for performing t-tests
+* **Documentation**: `R/Project/README.md` - Detailed explanation of the analysis
+
+To run the example:
+```r
+source("R/00_Confiq_file.R")
+source("R/Project/01_statistical_test_example.R")
+```
+
+This example demonstrates key principles of reproducible research: clear structure, comprehensive documentation, data validation, visualization, and transparent statistical reporting.
